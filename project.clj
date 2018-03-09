@@ -8,6 +8,8 @@
     [ring/ring-defaults "0.2.1"]
     [ring/ring-json "0.4.0"]
     [org.clojure/clojurescript "1.9.946"]
+    [cljs-http "0.1.44"]
+    [org.clojure/core.async "0.4.474"]
   ]
   :plugins [
     [lein-ring "0.9.7"]
