@@ -5,6 +5,7 @@
     [cljs-http.client :as http]
     [cljs.core.async :refer [<!]]
     [enfocus.core :as ef]
+    [enfocus.events :as ev]
   )
 )
 
@@ -22,6 +23,7 @@
           (ef/content (:status body))
           (ef/set-style :font-size "500%")
         )
+        "#button1" (ev/listen :click #(js/alert "bye!"))
       )
     )
   )
