@@ -18,7 +18,11 @@
       ]
       (ef/at
         "#cat-name" (ef/content (:name body))
-        "#status" (ef/content (:status body)))
+        "#status" (ef/do->
+          (ef/content (:status body))
+          (ef/set-style :font-size "500%")
+        )
+      )
     )
   )
 )
