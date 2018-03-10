@@ -10,6 +10,7 @@
     [org.clojure/clojurescript "1.9.946"]
     [cljs-http "0.1.44"]
     [org.clojure/core.async "0.4.474"]
+    [enfocus "2.1.1"]
   ]
   :plugins [
     [lein-ring "0.9.7"]
