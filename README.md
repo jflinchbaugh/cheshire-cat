@@ -1,7 +1,5 @@
 # cheshire-cat
 
-FIXME
-
 ## Prerequisites
 
 You will need [Leiningen][] 2.0.0 or above installed.
@@ -10,10 +8,8 @@ You will need [Leiningen][] 2.0.0 or above installed.
 
 ## Running
 
-To start a web server for the application, run:
+To start a web server for the application, run both:
 
-    lein ring server
+    % lein ring server
 
-## License
-
-Copyright © 2018 FIXME
+    % lein cljsbuild auto
